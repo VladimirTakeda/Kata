@@ -109,6 +109,8 @@ func TestEvaluateCorrect(t *testing.T) {
 		{"1 / 1\n", "1"},
 		{"7 / 2\n", "3"},
 		{"6 / 2\n", "3"},
+		{"4 / 10\n", "0"},
+		{"1 - 1\n", "0"},
 
 		{"I + I\n", "II"},
 		{"X / III\n", "III"},
